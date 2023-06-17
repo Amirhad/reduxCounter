@@ -1,0 +1,62 @@
+.display {
+  width: 768px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-bottom: 39px;
+}
+.menu {
+  width: 568px;
+  height: 82px;
+  text-align: end;
+}
+.logo {
+  margin-top: 3px;
+}
+ul li {
+  display: inline;
+  margin-right: 30px;
+  font-size: 28px;
+  color: #003399;
+}
+
+
+
+
+
+.MainContent {
+    width: 770px;
+    height: 670px;
+  margin: auto;
+}
+
+.number{
+    text-align: center;
+    font-size: 288px;
+    color: #F27C0F;
+    margin-bottom: 12px;
+}
+.buttons{
+    width: 742px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blueButton {
+  background-color: #003399;
+  color: #fff;
+}
+.orangeButton {
+  background-color: #f27c0f;
+  color: #fff;
+}
+.grayButton {
+  background-color: #e5e5e5;
+}
+.btn {
+  border-radius: 4px;
+  width: 200px;
+  height: 58px;
+  border: none;
+  font-size: 24px;
+}
