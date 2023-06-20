@@ -5,19 +5,19 @@ import { createStore } from "redux";
 import App from "./App";
 
 const reducer = (state = 0, action) => {
-  if (action.type === "plus") {
-    return state + 1;
-  }
-  if (action.type === "minus") {
-    return  state > 0 ? state - 1 : state;
-  }
+  switch (action.type) {
+    case "plus":
+      return state + 1;
 
-  if (action.type === "reset") {
-    return 0;
+    case "minus":
+      return state > 0 ? state -1 : state;
+
+    case "reset":
+      return 0;
+
+    default:
+      return state;
   }
-
-
-  return state
 };
 
 const store = createStore(reducer);
